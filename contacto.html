@@ -96,24 +96,27 @@
   
   
   
-        <form method="post" data-netlify="true" action="registro.php">
+        <form action="registro.php" method="post">
           <div class="mb-3">
-            <input type="email" class="form-control" id="idemail" name="email" placeholder="nombre@ejemplo.com">
+            <label style="color: white;" for="idnombre">ingrese su nombre</label><br>
+            <input type="text" id="idnombre" name="nombre" placeholder="Nombre" >
           </div>
   
   
           <div class="mb-3">
-            <input type="input" class="form-control" id="idnombre" name="nombre" placeholder="Nombre">
+            <label style="color: white;" for="idnombre">ingrese su apellido</label><br>
+            <input type="text" id="idapellido" name="apellido" placeholder="Apellido">
           </div>
   
   
           <div class="mb-3">
-            <input type="tel" class="form-control" name="telefono" id="idtelefono" placeholder="Teléfono">
+            <label style="color: white;" for="idemail">ingrese su email</label><br>
+            <input type="email" id="idemail" name="email" placeholder="ejemplo@gmail.com">
           </div>
   
          
           <div class="mb-3">
-            <button type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+            <input type="submit" value="enviar" inputmode="btnEnviar">
           </div>
         </form>
   

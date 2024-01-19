@@ -1,9 +1,9 @@
 <?php
 include 'conexion.php';
-$email=$_POST['email'];
 $nombre=$_POST['nombre'];
-$telefono=$_POST['telefono'];
-$consulta="INSERT INTO proyectofinal.usuario (email,nombre,telefono) values('$email','$nombre','$telefono')";
+$apellido=$_POST['apellido'];
+$email=$_POST['email'];
+$consulta="INSERT INTO proyecto.usuario (nombre,apellido,email) values('$nombre','$apellido','$email')";
 
 if ($conexion->query($consulta) === TRUE) {
     echo "registro exitoso";
