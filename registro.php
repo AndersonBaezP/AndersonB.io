@@ -1,6 +1,6 @@
 <?php
 include 'conexion.php';
-$email=$_POST['email']
+$email=$_POST['email'];
 $name=$_POST['nombre'];
 $phone=$_POST['telefono'];
 
