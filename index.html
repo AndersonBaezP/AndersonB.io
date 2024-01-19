@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="poyecto en HTML" />
+    <meta name="keywords"content="html, etiquetas, html5, formularios, tablas"/>
+    <meta name="author" content="Anderson Baez" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
+      <link rel="icon" href="Imagenes/dpad.svg" type="Imagenes/dpad.svg">
+      <link rel="icon" href="Imagenes/controller.svg">
+      <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    
+
+    <title>Proyecto</title>
+    
+  </head>
+  
+  <body style="background: rgb(7, 0, 17)";>
+    
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a style="color: fuchsia;" class="navbar-brand" href="#"><img src="Imagenes/controller.svg" alt="icono"></a>
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tienda</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Accesorios.html">Accesorios</a>
+                
+                <a class="dropdown-item" href="combos.html">Combos</a>
+                
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-sm-2" type="search" placeholder="Agregar Articulo">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+      <figure>
+        
+        <img p src="Imagenes/marioportada.jpeg" alt="imagen"   />
+        <figcaption   class="bienvenidos"> 
+          <p  style="text-align: justify;font-size: 35px;" class="parrafoimagenport">
+            <br><br><br>
+              <h1 style="display: flex; color: aqua;">GAMING ZONE</h1>
+              <h2 class="bienve">
+               <b></b>Bienvenido ¡Gamer! has  
+               <br>
+               recorrido un largo camino. Derrotaste a 
+               <br>
+                Bowser y rescataste a la princesa
+               <br>
+                 del castillo.A ti gamer, que nunca
+                <br>
+                 te cansas de jugar.
+                 <br>
+                 Estas en el lugar correcto ven a la
+                 <br>
+                  tienda de accesorios gamer y periféricos.</b>
+                </h2>
+                </figcaption>
+              </p>
+            </div>
+    </figure>
+    <br><br>
+    <a href="Accesorios.html"><nav><h1 class="Ofertexplo">OFERTAS EXPLOSIVAS</h1></nav></a>
+  <hr size="4px">
+  </div>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagenes/ofertas_banner_web.webp" class="d-block w-100" alt="image2">
+      </div>
+      <div class="carousel-item active">
+        <img src="Imagenes/BANNER_LOCAL_web.webp" class="d-block w-100" alt="imag">
+      </div>
+      <div class="carousel-item active">
+        <img src="Imagenes/banner_ig_web.webp" class="d-block w-100" alt="imagen3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span  class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next </span>
+    </button>
+  </div>
+  <br><br>
+  <h1 class="titulofor">GAMING ZONE</h1>
+  <hr size="4px">
+</section>
+<figure>
+  <div>
+  <img src="Imagenes/tecla.png" alt="imagen" class="imagfor"/>
+<br><br><br><br><br><br>
+  <figcaption   class="form"> 
+    <form action="#" style="text-align: center; border: 15px ; color: yellow;" >
+    <label for="id-nombre">Escriba su Nombre</label>
+    <br>
+    <input type="text" name="nombre"id="id-nombre" placeholder="Nombre">
+    <br><br>
+    <label for="id-apellido">Escriba su Apellido</label>
+    <br>
+    <input type="text" name="apellido" id="id-apellido" placeholder="Apellido">
+    <br><br>
+    <label for="id-email">Correo Electronico</label>
+    <br>
+    <input type="email" name="Email" id="id-email" placeholder="Email">
+    <br><br>
+    <label for="id-comentario">Comentarios o Sugerencias</label>
+  <br>
+    <textarea name="comentario" id="id-comentario" cols="20" rows="8">
+      
+
+    </textarea>
+    <br><br>
+    <input style="background-color: yellowgreen;" type="button" name="Suscribirse" id="btn-suscribirse" value="Suscribirse">
+    <div>
+     <Figcaption class="parrafor">
+      <b>TE APASIONA EL MUNDO GAMER TE INVITO A SUSCRÍBIRTE PÁRA RECIBIR NOTICIAS, DESCUENTOS E INFORMACIÓN RELACIONADA AL MUNDO GAMER.</b>
+     </Figcaption>
+    </div>
+  </form>
+</div>
+</figcaption>
+
+</div>     
+</figure>
+<footer class="pie-pagina">
+  <div class="grupo-1">
+      <div class="box">
+          <figure>
+              <a href="#">
+                  <img src="Imagenes/imageszon.jfif" alt="Logo de Anddy">
+              </a>
+          </figure>
+      </div>
+      <div class="box">
+          <h2>SOBRE NOSOTROS</h2>
+          <p>Los productos vendidos por GAMING ZONE, tienen una garantía contra defectos de fábrica de 150 días contados desde el envío de tu producto. </p>
+          <p>Puedes revisar los términos y condiciones de la garantía antes mencionada.</p>
+      </div>
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a style="color: blue;" href="#" class="fa fa-facebook"></a>
+            <a style="color: fuchsia;" href="#" class="fa fa-instagram"></a>
+            <a style="color: blue;" href="#" class="fa fa-twitter"></a>
+            <a style="color: red;" href="#" class="fa fa-youtube"></a>
+          </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2024 <b>Gaming Zone</b> - Todos los Derechos Reservados.</small>
+  </div>
+</footer>
+
+         
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+  </body>
+</html>
