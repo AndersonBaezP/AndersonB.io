@@ -1,0 +1,229 @@
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 60px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+.grupo-2{
+    background-color: #0a1a2a;
+}
+body {
+    background-color: #ffdd90;
+    background-image: url(");
+  }
+  *{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg,red,blue,green,black);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    border: solid 3px #fff;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+body {
+    background-color: #551010;
+}
+body { 
+    text-align: left; 
+    font-family: 'Bosstrad', sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+} 
+
+figure {
+    position: relative;
+    color: rgb(241, 101, 101); /* color del texto */
+    font-size: 30px; /* tamaño de la fuente del texto */
+    border: none;
+    
+    
+}
+
+img {
+    width: 100%; /* ajusta la imagen al ancho del contenedor */
+}
+
+figcaption {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.0); /* fondo semitransparente para mejorar la visibilidad del texto */
+    padding: 10px; /* espacio interno alrededor del texto */
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.nav-link{
+    border: 10px;
+    color: red;
+    font-family: cursive;
+    background: red;
+}
+.navbar-brand{
+    width: 4.5%;
+    filter: invert(12);
+}
+.visually-hidden{
+    color: red;
+}
+.form{
+    text-decoration-line: line-through;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    border: 15px;
+    position: absolute;
+    top: 35%;
+    left: 27%;
+}
+.form{
+    text-decoration-line: line-through;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    border: 15px;
+    position: absolute;
+    top: 35%;
+    left: 27%;}
+
+   .cn{
+    background: #0a141d;
+    
+   }
+   #canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.formulario{
+    
+        text-decoration-line: line-through;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: beige;
+        border: 15px;
+        position: absolute;
+        top: 35%;
+        left: 27%;
+    
+}
+.formulario{
+    align-items: center;
+}
+.btn{
+    height: 24px;
+    border-radius: 4px;
+    padding: 1em;
+    background-color: aqua;
+    color: #0a141d;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: shaking 2s infinite;
+}
+@keyframes shaking{
+    10%{
+        transform: scale(1.05) rotate(5deg);
+    }
+    20%{
+        transform: scale(1.05)rotate(-5deg);
+    }
+    30%{
+        transform: scale(1.05) rotate(5deg);
+    }
+    40%{
+        transform: none;
+    }
+}

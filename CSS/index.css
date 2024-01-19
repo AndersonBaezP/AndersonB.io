@@ -1,0 +1,193 @@
+body { 
+    text-align: left; 
+    font-family: 'Bosstrad', sans-serif; 
+    font-size: 16px; 
+    color: #333; 
+} 
+
+figure {
+    position: relative;
+    color: rgb(241, 101, 101); /* color del texto */
+    font-size: 30px; /* tamaño de la fuente del texto */
+    border: none;
+    
+    
+}
+
+img {
+    width: 100%; /* ajusta la imagen al ancho del contenedor */
+}
+
+figcaption {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.0); /* fondo semitransparente para mejorar la visibilidad del texto */
+    padding: 10px; /* espacio interno alrededor del texto */
+}
+
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.nav-link{
+    border: 10px;
+    color: red;
+    font-family: cursive;
+    background: red;
+}
+.navbar-brand{
+    width: 4.5%;
+    filter: invert(12);
+}
+.visually-hidden{
+    color: red;
+}
+.form{
+    text-decoration-line: line-through;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    border: 15px;
+    position: absolute;
+    top: 35%;
+    left: 27%;
+}
+.parrafor{
+    position: absolute;
+    top: 35%;
+    left: 180%;
+    
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    transform: translate(-30%, -30%);
+}
+.footer {
+    background-color: navy;
+    padding: 10px;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 5%;
+  }
+  .footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 60px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+.Ofertexplo{
+    color: white;
+    text-align: center;
+}
+.titulofor{
+    color: white;
+    text-align: center;
+}
+.titulopor{
+    color: fuchsia;
+    font-size: 21px;
+    text-align: right;
+    
+}
+parrafoimagenport{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    font-size: 35px;
+}
+.bienvenidos{
+    font-size: 26px;
+}
+.bienve{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.carousel-inner
+{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+.carousel-item active{
+    flex: 1 0 auto;
+    
+
+}
+

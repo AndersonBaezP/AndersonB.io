@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;1,100;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+}
+
+header{
+    background-color: rgb(246, 245, 245);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.grid-5{
+    background-color: rgb(224, 219, 224);
+text-align: center;
+border: 1px solid rgb(5, 5, 5);
+grid-area: 4/4/4/1;
+}
+
+.caja{
+    border: 1px solid lightcoral;
+    background-color: antiquewhite;
+    font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif;
+width: 500px;
+height: 500px;
+line-height: 120px;
+text-align: center;
+margin: 10px;
+}
+
+.contenedor-grid{
+    
+    display: flex;
+    text-align: center;
+    grid-template-columns: 1fr  ;
+    column-gap: 10px;
+    row-gap: 15px;
+    height: 200px;
+    padding: 20px;
+}
+
+
+.caja-1{
+    flex: 1;
+    order: 2;
+    background-color: rgb(219, 218, 218);
+    
+    background-color: brown;
+    height: 380px;
+    width: 300px;
+    
+    
+}
+.caja-2{
+   
+    background-color: rgb(234, 232, 231);
+    
+    background-color: blue;
+    height: 360px;
+    width: 300px;
+}
+.caja-3{
+    
+    background-color: rgb(237, 236, 235);
+    
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+.caja-4{
+    
+    background-color: rgb(235, 234, 231);
+    
+    background-color: yellow;
+    height: 360px;
+    width: 300px;
+    border-style: 20px;
+
+}
+
+.consultar{
+    border: 20px;
+    font-size: 20px;
+    
+        background-color:blue;
+        border-color:red;
+        color:white;
+        
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+
+.container-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    
+
+}
+
+.full{
+    font-size: 100px;
+    display: flex;
+    background-position: 20px;
+    background: white;right: 10%;
+    color: black;
+    border-color: white;
+    
+}
