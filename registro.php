@@ -2,9 +2,9 @@
 include 'conexion.php';
 $email=$_POST['email'];
 $name=$_POST['nombre'];
-$phone=$_POST['telefono'];
+$telefono=$_POST['telefono'];
 
-$consulta="INSERT INTO proyectofinal.usuarios (email,nombre,telefono) values('$email','$name','$phone')";
+$consulta="INSERT INTO proyectofinal.usuarios (email,nombre,telefono) values('$email','$name','$telefono')";
 $resultado=mysqli_query($conexion,$consulta);
 if($resultado){
 echo "registro exitoso";
