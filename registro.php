@@ -1,10 +1,10 @@
 <?php
 include 'conexion.php';
 $email=$_POST['email']
-$name=$_POST['name'];
-$phone=$_POST['phone'];
+$name=$_POST['nombre'];
+$phone=$_POST['telefono'];
 
-$consulta="INSERT INTO proyectofinal.usuarios (email,nombre,telefono)values('$email','$nombre','$telefono')";
+$consulta="INSERT INTO proyectofinal.usuarios (email,nombre,telefono) values('$email','$name','$phone')";
 $resultado=mysqli_query($conexion,$consulta);
 if($resultado){
 echo "registro exitoso";
